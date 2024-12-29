@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# 🎄 Disney Movie Bingo - Family Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive bingo game to play while watching Disney movies together! Created with love as a New Year's family present.
 
-Currently, two official plugins are available:
+## 🎮 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Open the game at [insert Cloudflare Pages URL]
+2. Get the family together and start your favorite Disney movie
+3. Each player gets a randomly generated bingo card
+4. When you spot an event on your card happening in the movie, click it!
+5. First person to get a line (horizontal, vertical, or diagonal) wins!
 
-## Expanding the ESLint configuration
+## 🎯 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Randomly generated bingo cards
+- Mobile-friendly design for easy playing
+- Auto-saves your progress in local storage
+- One-click card regeneration
+- Weighted event selection based on how common events are in Disney movies
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Technical Details
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Built with:
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Hosted on Cloudflare Pages
+
+## 🎬 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🎁 Made with Love
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Created as a special New Year's present to bring family together for movie nights. Enjoy! 🍿✨
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```

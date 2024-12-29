@@ -12,104 +12,203 @@ export const totalMovies: string[] = [
 ];
 
 export const eventDefinitions: Record<string, string[]> = {
-    "A character learns a valuable lesson": ["Frozen II", "Encanto", "Turning Red", "Luca", "Wish"],
-    "A dance or ball scene": ["Encanto", "The Little Mermaid", "Wish"],
-    "A funny animal sidekick": ["Frozen II", "Encanto", "Strange World", "Luca", "Wish"],
-    "A magical item": ["Frozen II", "Raya and the Last Dragon", "Wish"],
-    "A big feast or banquet": ["Encanto", "Luca"],
-    "A secret identity revealed": ["Cruella", "Encanto"],
-    "A powerful villain": ["Frozen II", "Strange World", "Lightyear", "Cruella"],
-    "A heartwarming family reunion": ["Encanto", "Turning Red", "Wish"],
-    "A character embarks on a quest": ["Frozen II", "Raya and the Last Dragon", "Lightyear"],
-    "A water-based adventure": ["The Little Mermaid", "Luca", "Wish"],
-    "A musical performance": ["Encanto", "The Little Mermaid", "Frozen II"],
-    "A high-tech gadget": ["Strange World", "Lightyear"],
-    "A magical curse": ["Frozen II", "Wish"],
-    "A talking animal": ["Frozen II", "Strange World", "Luca", "Wish"],
-    "A forbidden love": ["Luca", "The Little Mermaid"],
-    "A kingdom in peril": ["Frozen II", "Raya and the Last Dragon", "Encanto"],
-    "A comedic misunderstanding": ["Turning Red", "Luca", "Strange World"],
-    "A sacrifice for a loved one": ["Wish", "Frozen II"],
-    "A race against time": ["Lightyear", "Strange World", "Raya and the Last Dragon"],
-    "A dramatic rescue": ["Encanto", "Lightyear", "The Little Mermaid"],
-    "A magical transformation": ["Wish", "Frozen II", "The Little Mermaid"],
-    "A mentor figure guides the hero": ["Raya and the Last Dragon", "Wish", "Turning Red"],
-    "A heroic sacrifice": ["Lightyear", "Frozen II", "Strange World"],
-    "A battle of wits": ["Encanto", "Cruella"],
-    "A treasure hunt": ["Luca", "Raya and the Last Dragon"],
-    "A comedic duo": ["Frozen II", "Strange World", "Luca"],
-    "A celebration or festival": ["Encanto", "Luca"],
-    "A tragic backstory revealed": ["Cruella", "Lightyear", "Encanto"],
-    "A magical map": ["Raya and the Last Dragon", "Frozen II"],
-    "A shipwreck scene": ["The Little Mermaid", "Strange World"],
-    "A character overcomes self-doubt": ["Frozen II", "Turning Red", "Luca", "Wish"],
-    "A surprising betrayal": ["Raya and the Last Dragon", "Cruella", "Lightyear"],
-    "A dream sequence": ["Encanto", "Frozen II"],
-    "A villain with a tragic past": ["Cruella", "Frozen II"],
-    "A mysterious prophecy": ["Frozen II", "Wish"],
-    "A magical forest": ["Frozen II", "Strange World"],
-    "A thrilling chase scene": ["Lightyear", "Raya and the Last Dragon", "Turning Red"],
-    "A character breaks tradition": ["Turning Red", "Encanto", "Luca"],
-    "A heartfelt apology": ["Encanto", "Luca", "Turning Red"],
-    "A magical creature": ["Frozen II", "Strange World", "Wish"],
-    "A dangerous artifact": ["Raya and the Last Dragon", "Lightyear", "Wish"],
-    "A character faces their fears": ["Frozen II", "Encanto", "Turning Red"],
-    "A surprising ally": ["Strange World", "Lightyear", "Raya and the Last Dragon"],
-    "A heartwarming romance": ["The Little Mermaid", "Luca"],
-    "A message of forgiveness": ["Encanto", "Turning Red"],
-    "A character finds their purpose": ["Wish", "Frozen II", "Encanto"],
-    "A tragic loss": ["Cruella", "Lightyear", "Encanto"],
-    "A character learns teamwork": ["Frozen II", "Turning Red", "Luca"],
-    "A dramatic standoff": ["Lightyear", "Raya and the Last Dragon", "Strange World"],
-    "A starry night scene": ["Wish", "Encanto", "Frozen II"],
-    "A mysterious guide": ["Raya and the Last Dragon", "Wish", "Frozen II"],
-    "A nostalgic flashback": ["Lightyear", "Encanto", "Cruella"],
-    "A forbidden place explored": ["Frozen II", "The Little Mermaid"],
-    "A thrilling flight": ["Lightyear", "Strange World"],
-    "A powerful speech": ["Encanto", "Luca", "Turning Red"],
-    "A symbolic object": ["Frozen II", "Wish", "Encanto"],
-    "A dramatic storm": ["The Little Mermaid", "Frozen II", "Strange World"],
-    "A rival turned friend": ["Lightyear", "Raya and the Last Dragon"],
-    "A moment of redemption": ["Cruella", "Frozen II"],
-    "A character defies expectations": ["Turning Red", "Luca", "Encanto"],
-    "A vibrant market scene": ["Encanto", "Raya and the Last Dragon"],
-    "A life-changing revelation": ["Frozen II", "Wish", "Lightyear"],
-    "A journey to a far-off land": ["Raya and the Last Dragon", "Frozen II", "Lightyear"],
-    "A competition or contest": ["Encanto", "Turning Red"],
-    "A theme of self-acceptance": ["Turning Red", "Luca", "Encanto"],
-    "A magical land": ["Wish", "Frozen II"],
-    "A confrontation with destiny": ["Frozen II", "Wish"],
-    "A test of courage": ["Strange World", "Lightyear", "Luca"],
-    "A celebration of culture": ["Encanto", "Raya and the Last Dragon"],
-    "A perilous journey": ["Frozen II", "Raya and the Last Dragon", "Wish"],
-    "A pivotal choice": ["Lightyear", "Wish"],
-    "A symbolic dance": ["The Little Mermaid", "Encanto"],
-    "A majestic castle": ["Frozen II", "Wish", "Raya and the Last Dragon"],
-    "A bond between siblings": ["Encanto", "Frozen II"],
-    "A theme of hope": ["Wish", "Frozen II"],
-    "A daring escape": ["Raya and the Last Dragon", "Lightyear", "Strange World"],
-    "A spectacular fireworks display": ["Encanto", "Frozen II"],
-    "A message of resilience": ["Wish", "Turning Red"],
-    "A character faces the unknown": ["Frozen II", "Strange World"],
-    "A theme of forgiveness": ["Encanto", "Turning Red"],
-    "A symbol of unity": ["Wish", "Encanto"],
-    "A world-changing event": ["Strange World", "Lightyear"],
-    "A surprising mentor": ["Raya and the Last Dragon", "Turning Red"],
-    "A heartfelt farewell": ["Encanto", "Frozen II"],
-    "A secret lair": ["Strange World", "Lightyear"],
-    "A theme of redemption": ["Cruella", "Encanto"],
-    "A scenic beach setting": ["The Little Mermaid", "Luca"],
-    "A magical tree": ["Frozen II", "Wish"],
-    "A character reconnects with nature": ["Luca", "Turning Red", "Wish"],
-    "A whimsical musical number": ["Encanto", "The Little Mermaid"],
-    "A daring leap of faith": ["Frozen II", "Luca"],
-    "A bond with a mystical animal": ["Strange World", "Wish"],
-    "A challenge of loyalty": ["Encanto", "Raya and the Last Dragon"],
-    "A heartfelt promise": ["Frozen II", "Encanto", "Turning Red"],
-    "A futuristic cityscape": ["Lightyear", "Strange World"],
-    "A daring heist": ["Cruella", "Raya and the Last Dragon"],
-    "A reunion of old friends": ["Frozen II", "Encanto"],
-    "A theme of justice": ["Encanto", "Raya and the Last Dragon"],
-    "A moment of levity in danger": ["Frozen II", "Strange World", "Lightyear"],
-    "A heartfelt confession": ["Turning Red", "Encanto", "Wish"]
+    "🎓 📚\nCharacter learns a valuable lesson": ["Frozen II", "Encanto", "Turning Red", "Luca", "Wish"],
+
+    "💃 🕺\nDance or ball scene": ["Encanto", "The Little Mermaid", "Wish"],
+
+    "🐾 🦮\nFunny animal sidekick": ["Frozen II", "Encanto", "Strange World", "Luca", "Wish"],
+
+    "✨ 🎭\nMagical item": ["Frozen II", "Raya and the Last Dragon", "Wish"],
+
+    "🍽️ 🍖\nBig feast or banquet": ["Encanto", "Luca"],
+
+    "🎭 👥\nSecret identity revealed": ["Cruella", "Encanto"],
+
+    "😈 👿\nPowerful villain": ["Frozen II", "Strange World", "Lightyear", "Cruella"],
+
+    "👨‍👩‍👧‍👦 🤗\nHeartwarming family reunion": ["Encanto", "Turning Red", "Wish"],
+
+    "🗺️ 🎯\nCharacter embarks on a quest": ["Frozen II", "Raya and the Last Dragon", "Lightyear"],
+
+    "🌊 🚣\nWater-based adventure": ["The Little Mermaid", "Luca", "Wish"],
+
+    "🎵 🎤\nMusical performance": ["Encanto", "The Little Mermaid", "Frozen II"],
+
+    "🔧 🤖\nHigh-tech gadget": ["Strange World", "Lightyear"],
+
+    "🌙 ⚡\nMagical curse": ["Frozen II", "Wish"],
+
+    "🗣️ 🐾\nTalking animal": ["Frozen II", "Strange World", "Luca", "Wish"],
+
+    "💘 💔\nForbidden love": ["Luca", "The Little Mermaid"],
+
+    "👑 ⚔️\nKingdom in peril": ["Frozen II", "Raya and the Last Dragon", "Encanto"],
+
+    "😅 🤦\nComedic misunderstanding": ["Turning Red", "Luca", "Strange World"],
+
+    "💝 💖\nSacrifice for a loved one": ["Wish", "Frozen II"],
+
+    "⏰ ⚡\nRace against time": ["Lightyear", "Strange World", "Raya and the Last Dragon"],
+
+    "🦸 🆘\nDramatic rescue": ["Encanto", "Lightyear", "The Little Mermaid"],
+
+    "✨ 🔮\nMagical transformation": ["Wish", "Frozen II", "The Little Mermaid"],
+
+    "👨‍🏫 🌟\nMentor figure guides the hero": ["Raya and the Last Dragon", "Wish", "Turning Red"],
+
+    "🦸 💫\nHeroic sacrifice": ["Lightyear", "Frozen II", "Strange World"],
+
+    "🧠 🎯\nBattle of wits": ["Encanto", "Cruella"],
+
+    "💎 🗺️\nTreasure hunt": ["Luca", "Raya and the Last Dragon"],
+
+    "👥 😄\nComedic duo": ["Frozen II", "Strange World", "Luca"],
+
+    "🎉 🎊\nCelebration or festival": ["Encanto", "Luca"],
+
+    "📖 💔\nTragic backstory revealed": ["Cruella", "Lightyear", "Encanto"],
+
+    "🗺️ 🧭\nMagical map": ["Raya and the Last Dragon", "Frozen II"],
+
+    "🚢 💥\nShipwreck scene": ["The Little Mermaid", "Strange World"],
+
+    "💪 🌟\nCharacter overcomes self-doubt": ["Frozen II", "Turning Red", "Luca", "Wish"],
+
+    "🗡️ 💔\nSurprising betrayal": ["Raya and the Last Dragon", "Cruella", "Lightyear"],
+
+    "💭 🌙\nDream sequence": ["Encanto", "Frozen II"],
+
+    "😈 💔\nVillain with a tragic past": ["Cruella", "Frozen II"],
+
+    "🔮 📜\nMysterious prophecy": ["Frozen II", "Wish"],
+
+    "🌳 ✨\nMagical forest": ["Frozen II", "Strange World"],
+
+    "🏃 💨\nThrilling chase scene": ["Lightyear", "Raya and the Last Dragon", "Turning Red"],
+
+    "🌟 💫\nCharacter breaks tradition": ["Turning Red", "Encanto", "Luca"],
+
+    "🙏 💝\nHeartfelt apology": ["Encanto", "Luca", "Turning Red"],
+
+    "🐉 ✨\nMagical creature": ["Frozen II", "Strange World", "Wish"],
+
+    "🏺 ⚔️\nDangerous artifact": ["Raya and the Last Dragon", "Lightyear", "Wish"],
+
+    "😰 💪\nCharacter faces their fears": ["Frozen II", "Encanto", "Turning Red"],
+
+    "🤝 🌟\nSurprising ally": ["Strange World", "Lightyear", "Raya and the Last Dragon"],
+
+    "💑 💕\nHeartwarming romance": ["The Little Mermaid", "Luca"],
+
+    "🕊️ 🤝\nMessage of forgiveness": ["Encanto", "Turning Red"],
+
+    "🎯 ⭐\nCharacter finds their purpose": ["Wish", "Frozen II", "Encanto"],
+
+    "💔 😢\nTragic loss": ["Cruella", "Lightyear", "Encanto"],
+
+    "🤝 🌟\nCharacter learns teamwork": ["Frozen II", "Turning Red", "Luca"],
+
+    "⚔️ 🔥\nDramatic standoff": ["Lightyear", "Raya and the Last Dragon", "Strange World"],
+
+    "🌟 🌙\nStarry night scene": ["Wish", "Encanto", "Frozen II"],
+
+    "🧙 🌟\nMysterious guide": ["Raya and the Last Dragon", "Wish", "Frozen II"],
+
+    "📷 💭\nNostalgic flashback": ["Lightyear", "Encanto", "Cruella"],
+
+    "🚫 🗝️\nForbidden place explored": ["Frozen II", "The Little Mermaid"],
+
+    "✈️ 🚀\nThrilling flight": ["Lightyear", "Strange World"],
+
+    "🎤 💫\nPowerful speech": ["Encanto", "Luca", "Turning Red"],
+
+    "🎭 ✨\nSymbolic object": ["Frozen II", "Wish", "Encanto"],
+
+    "⛈️ 🌊\nDramatic storm": ["The Little Mermaid", "Frozen II", "Strange World"],
+
+    "🤺 🤝\nRival turned friend": ["Lightyear", "Raya and the Last Dragon"],
+
+    "✨ 🌟\nMoment of redemption": ["Cruella", "Frozen II"],
+
+    "💫 🌟\nCharacter defies expectations": ["Turning Red", "Luca", "Encanto"],
+
+    "🏪 🛍️\nVibrant market scene": ["Encanto", "Raya and the Last Dragon"],
+
+    "💡 ⚡\nLife-changing revelation": ["Frozen II", "Wish", "Lightyear"],
+
+    "🗺️ ✈️\nJourney to a far-off land": ["Raya and the Last Dragon", "Frozen II", "Lightyear"],
+
+    "🏆 🎯\nCompetition or contest": ["Encanto", "Turning Red"],
+
+    "🤗 💝\nTheme of self-acceptance": ["Turning Red", "Luca", "Encanto"],
+
+    "🌈 ✨\nMagical land": ["Wish", "Frozen II"],
+
+    "⚔️ 🌟\nConfrontation with destiny": ["Frozen II", "Wish"],
+
+    "💪 🦁\nTest of courage": ["Strange World", "Lightyear", "Luca"],
+
+    "🌺 🎭\nCelebration of culture": ["Encanto", "Raya and the Last Dragon"],
+
+    "🗺️ ⚔️\nPerilous journey": ["Frozen II", "Raya and the Last Dragon", "Wish"],
+
+    "🔄 💫\nPivotal choice": ["Lightyear", "Wish"],
+
+    "💃 🎭\nSymbolic dance": ["The Little Mermaid", "Encanto"],
+
+    "🏰 👑\nMajestic castle": ["Frozen II", "Wish", "Raya and the Last Dragon"],
+
+    "👯 💕\nBond between siblings": ["Encanto", "Frozen II"],
+
+    "🌟 💫\nTheme of hope": ["Wish", "Frozen II"],
+
+    "🏃 💨\nDaring escape": ["Raya and the Last Dragon", "Lightyear", "Strange World"],
+
+    "🎆 ✨\nSpectacular fireworks display": ["Encanto", "Frozen II"],
+
+    "💪 🌟\nMessage of resilience": ["Wish", "Turning Red"],
+
+    "🌌 🚀\nCharacter faces the unknown": ["Frozen II", "Strange World"],
+
+    "🕊️ 💝\nTheme of forgiveness": ["Encanto", "Turning Red"],
+
+    "🤝 💫\nSymbol of unity": ["Wish", "Encanto"],
+
+    "🌍 ⚡\nWorld-changing event": ["Strange World", "Lightyear"],
+
+    "🧙 💫\nSurprising mentor": ["Raya and the Last Dragon", "Turning Red"],
+
+    "👋 💔\nHeartfelt farewell": ["Encanto", "Frozen II"],
+
+    "🏰 🔒\nSecret lair": ["Strange World", "Lightyear"],
+
+    "✨ 🌟\nTheme of redemption": ["Cruella", "Encanto"],
+
+    "🏖️ 🌊\nScenic beach setting": ["The Little Mermaid", "Luca"],
+
+    "🌳 ✨\nMagical tree": ["Frozen II", "Wish"],
+
+    "🌿 🍃\nCharacter reconnects with nature": ["Luca", "Turning Red", "Wish"],
+
+    "🎵 🎶\nWhimsical musical number": ["Encanto", "The Little Mermaid"],
+
+    "🦅 ⭐\nDaring leap of faith": ["Frozen II", "Luca"],
+
+    "🐉 ✨\nBond with a mystical animal": ["Strange World", "Wish"],
+
+    "⚔️ 🤝\nChallenge of loyalty": ["Encanto", "Raya and the Last Dragon"],
+
+    "🤝 💫\nHeartfelt promise": ["Frozen II", "Encanto", "Turning Red"],
+
+    "🌆 🚀\nFuturistic cityscape": ["Lightyear", "Strange World"],
+
+    "🦹 💎\nDaring heist": ["Cruella", "Raya and the Last Dragon"],
+
+    "🤗 💫\nReunion of old friends": ["Frozen II", "Encanto"],
+
+    "⚖️ ✨\nTheme of justice": ["Encanto", "Raya and the Last Dragon"],
+
+    "😅 ⚔️\nMoment of levity in danger": ["Frozen II", "Strange World", "Lightyear"],
+
+    "💝 💫\nHeartfelt confession": ["Turning Red", "Encanto", "Wish"]
 }; 
