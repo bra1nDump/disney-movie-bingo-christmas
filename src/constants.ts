@@ -291,6 +291,7 @@ export const gayestPartyEventsRussian = [
   "Упоминается кот",
   "Кто-то показывает свои сиськи (любой гендер)",
   "Смеются над нормисами",
+  "Налоговый сезон... бляяя",
 ];
 
 // Actual configurations used in the app
