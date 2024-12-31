@@ -39,6 +39,16 @@ npm run dev
 npm run build
 ```
 
+## Deployed
+
+To Cloudflare Pages, Kirill's personal account.
+
+Disney Bingo:
+https://disney-movie-bingo-christmas.pages.dev/
+
+Russian Gay Party Bingo:
+https://disney-movie-bingo-christmas.pages.dev/gayest-party
+
 ## 🎁 Made with Love
 
 Created as a special New Year's present to bring family together for movie nights. Enjoy! 🍿✨

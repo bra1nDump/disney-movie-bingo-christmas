@@ -202,7 +202,7 @@ const BingoGame: React.FC<BingoGameProps> = ({ config }) => {
   };
 
   return (
-    <div className="p-4 md:p-8 min-h-screen flex flex-col bg-white">
+    <div className="fixed inset-0 overflow-hidden flex flex-col bg-white p-4 md:p-8">
       <div className="w-full max-w-[800px] mx-auto pt-4 pb-8 flex justify-between items-center">
         <h1 className="text-2xl md:text-3xl font-bold text-black">{config.title}</h1>
         <Button onClick={regenerateCard} className="flex items-center gap-2">
